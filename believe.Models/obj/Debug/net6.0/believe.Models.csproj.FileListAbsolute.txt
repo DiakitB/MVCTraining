@@ -1,0 +1,14 @@
+C:\Users\14388\source\repos\Desire\believe.Models\bin\Debug\net6.0\believe.Models.deps.json
+C:\Users\14388\source\repos\Desire\believe.Models\bin\Debug\net6.0\believe.Models.runtimeconfig.json
+C:\Users\14388\source\repos\Desire\believe.Models\bin\Debug\net6.0\believe.Models.dll
+C:\Users\14388\source\repos\Desire\believe.Models\bin\Debug\net6.0\believe.Models.pdb
+C:\Users\14388\source\repos\Desire\believe.Models\obj\Debug\net6.0\believe.Models.csproj.AssemblyReference.cache
+C:\Users\14388\source\repos\Desire\believe.Models\obj\Debug\net6.0\believe.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\14388\source\repos\Desire\believe.Models\obj\Debug\net6.0\believe.Models.AssemblyInfoInputs.cache
+C:\Users\14388\source\repos\Desire\believe.Models\obj\Debug\net6.0\believe.Models.AssemblyInfo.cs
+C:\Users\14388\source\repos\Desire\believe.Models\obj\Debug\net6.0\believe.Models.csproj.CoreCompileInputs.cache
+C:\Users\14388\source\repos\Desire\believe.Models\obj\Debug\net6.0\believe.Models.dll
+C:\Users\14388\source\repos\Desire\believe.Models\obj\Debug\net6.0\refint\believe.Models.dll
+C:\Users\14388\source\repos\Desire\believe.Models\obj\Debug\net6.0\believe.Models.pdb
+C:\Users\14388\source\repos\Desire\believe.Models\obj\Debug\net6.0\believe.Models.genruntimeconfig.cache
+C:\Users\14388\source\repos\Desire\believe.Models\obj\Debug\net6.0\ref\believe.Models.dll

@@ -1,21 +1,41 @@
-﻿using believe.Models;
+﻿using believe.DataAccess.Repository.IRepository;
+using believe.Models;
+using believe.Views.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
 using System.Diagnostics;
 
 namespace believe.Areas.Customer.Controllers
 {
     public class HomeController : Controller
+        
     {
         private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private readonly IUnitOfWork _context;
+       
+        public HomeController(ILogger<HomeController> logger , IUnitOfWork cont)
         {
             _logger = logger;
+            _context = cont;
         }
 
         public IActionResult Index()
         {
-            return View();
+            IEnumerable<Product> productListes = _context.Product.GetAll(includeProperties: "Category,CoverType");
+            return View(productListes);
+        }
+        public IActionResult Details(int id)
+        {
+            ShoppingCart cartObj = new()
+            {
+                Count = 1,
+                Product = _context.Product.GetFirstOrDefault(u=>u.Id==id, includeProperties: "Category,CoverType"),
+               
+            };
+
+
+            return View(cartObj);
+   
         }
 
         public IActionResult Privacy()

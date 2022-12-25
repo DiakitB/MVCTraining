@@ -1,4 +1,5 @@
 ﻿
+using believe.DataAccess.Repository;
 using believe.DataAccess.Repository.IRepository;
 using believe.DataOD;
 using believe.Models;
@@ -25,30 +26,25 @@ namespace believe.Controllers
             return View();
         }
         //GET
-       
+
       
-        public IActionResult Delete(int? id)
-        {
-            if (id is null or 0)
-            {
-                return NotFound();
-            }
-            var obj = _context.Prodcut.GetFirstOrDefault(c => c.Id == id);
-            return View(obj);
-        }
-        [HttpPost]
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
         public IActionResult DeletePOST(int? id)
         {
-            var obj = _context.Prodcut.GetFirstOrDefault(c => c.Id == id);
+            var obj = _context.Category.GetFirstOrDefault(u => u.Id == id);
             if (obj == null)
             {
                 return NotFound();
             }
-            _context.Prodcut.Remove(obj);
-           _context.Save();
+
+            _context.Category.Remove(obj);
+            _context.Save();
             TempData["success"] = "Category deleted successfully";
-            return RedirectToAction("Index");   
+            return RedirectToAction("Index");
+
         }
+
         public IActionResult UpSert(int? id)
         {
 
@@ -75,9 +71,11 @@ namespace believe.Controllers
             else
             {
                 //update product
-            }
+                productVM.Product = _context.Product.GetFirstOrDefault(u=>u.Id==id);
+				return View(productVM);
+			}
           ;
-            return View(productVM);
+          
         }
         [HttpPost]
         public IActionResult UpSert(ProductVM obj, IFormFile? file)
@@ -92,6 +90,14 @@ namespace believe.Controllers
                     string fileName = Guid.NewGuid().ToString();
                     var uploads = Path.Combine(wwwRootPath, @"images\products");
                     var extension = Path.GetExtension(file.FileName);
+                    if(obj.Product.ImageUrl!= null)
+                    {
+                        var oldImagePath = Path.Combine(wwwRootPath, obj.Product.ImageUrl.TrimStart('\\'));
+                        if(System.IO.File.Exists(oldImagePath))
+                        {
+                            System.IO.File.Delete(oldImagePath);
+                        }
+                    }
                     using(var fileStreams = new FileStream(Path.Combine(uploads, fileName + extension), FileMode.Create))
                     {
                         file.CopyTo(fileStreams);
@@ -99,8 +105,15 @@ namespace believe.Controllers
                     obj.Product.ImageUrl = @"\images\products\" + fileName + extension;
                 }
 
-
-                _context.Prodcut.Add(obj.Product);
+                if(obj.Product.Id == 0)
+                {
+					_context.Product.Add(obj.Product);
+				}
+                else
+                {
+                    _context.Product.Update(obj.Product);
+                }
+                
                 _context.Save();
                 TempData["success"] = "Product  update successfully";
                 return RedirectToAction("Index");
@@ -108,14 +121,37 @@ namespace believe.Controllers
             return View(obj);
             
         }
+
         #region API CALLS
         [HttpGet]
         public IActionResult GetAll()
         {
-            var productList = _context.Prodcut.GetAll();
-            return Json(new {data = productList});
+            var productList = _context.Product.GetAll(includeProperties: "Category,CoverType");
+            var objlis =  Json(new {data = productList});
+            return (objlis);
         }
-            
+        [HttpDelete]
+        public IActionResult Delete(int? id)
+        {
+            var obj = _context.Product.GetFirstOrDefault(u => u.Id == id);
+            if (obj == null)
+            {
+                var objlisd = Json(new { success = false, message="Error while deleting" });
+                return (objlisd);
+            }
+            var oldImagePath = Path.Combine(_hostEnvironment.WebRootPath, obj.ImageUrl.TrimStart('\\'));
+            if (System.IO.File.Exists(oldImagePath))
+            {
+                System.IO.File.Delete(oldImagePath);
+            }
+
+            _context.Product.Remove(obj);
+            _context.Save();
+
+            var objlisdr = Json(new { success = true, message = "delesuccefully" });
+            return (objlisdr);
+
+        }
 
         #endregion
     }

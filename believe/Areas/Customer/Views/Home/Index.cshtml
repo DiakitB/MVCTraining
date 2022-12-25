@@ -1,8 +1,76 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@model IEnumerable<believe.Models.Product>
+@*<link rel="stylesheet" href="~/css/productStyle.css" />*@
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="row">
+	@foreach (var product in Model)
+	{
+		<div class="col-lg-3 col-md-6">
+			<div class="row p-2">
+				<div class="col-12 modal-sm p-1" style="border:1px solid #008cba; border-radius: 5px;">
+					<div class="card">
+						<img src="@product.ImageUrl" class="card-img-top rounded" />
+
+						<div class="card-body">
+							<div class="pl-1">
+								<p class="card-title h5 text-primary">@product.Title</p>
+								<p class="card-title text-info">by <b>@product.Author</b></p>
+							</div>
+							<div class="pl-1">
+								<p>List Price: <strike><b>$@product.ListPrice.ToString("0.00")</b></strike></p>
+							</div>
+							<div class="pl-1">
+								<p>As low as: <b>$@product.Price75.ToString("0.00")</b></p>
+							</div>
+						</div>
+					</div>
+					<div>
+						<a asp-action="Details" class="btn btn-primary form-control" asp-route-productId="@product.Id">
+							Details
+						</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	}
 </div>
+@*<section style="background-color: #eee;">
+  <div class="text-center container py-5">
+    <h4 class="mt-4 mb-5"><strong>Bestsellers</strong></h4>
+
+    <div class="row">
+            @foreach (var product in Model)
+            {
+                <div class="col-lg-4 col-md-12 mb-4">
+                    <div class="card">
+                        <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+                         data-mdb-ripple-color="light">
+                            <img src="@product.ImageUrl"
+                             class="w-100" />
+                            <a href="#!">
+                                <div class="mask">
+                                    <div class="d-flex justify-content-start align-items-end h-100">
+                                        <h5><span class="badge bg-primary ms-2">New</span></h5>
+                                    </div>
+                                </div>
+                                <div class="hover-overlay">
+                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <a href="" class="text-reset">
+                                <h5 class="card-title mb-3">Product name</h5>
+                            </a>
+                            <a href="" class="text-reset">
+                                <p>Category</p>
+                            </a>
+                            <h6 class="mb-3">$@product.Price</h6>
+                        </div>
+                    </div>
+                </div>
+            }
+     
+    </div>
+    </div>
+</section>*@

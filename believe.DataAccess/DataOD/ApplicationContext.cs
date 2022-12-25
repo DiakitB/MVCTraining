@@ -9,5 +9,6 @@ namespace believe.DataOD
         public DbSet<Category> categories { get; set; }
         public DbSet<CoverType> coverType { get; set; }
         public DbSet<Product> products { get; set; }
+
     }
 }

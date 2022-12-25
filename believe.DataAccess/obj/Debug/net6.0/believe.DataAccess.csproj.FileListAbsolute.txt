@@ -1,0 +1,17 @@
+C:\Users\14388\source\repos\Desire\believe.DataAccess\bin\Debug\net6.0\believe.DataAccess.deps.json
+C:\Users\14388\source\repos\Desire\believe.DataAccess\bin\Debug\net6.0\believe.DataAccess.runtimeconfig.json
+C:\Users\14388\source\repos\Desire\believe.DataAccess\bin\Debug\net6.0\believe.DataAccess.dll
+C:\Users\14388\source\repos\Desire\believe.DataAccess\bin\Debug\net6.0\believe.DataAccess.pdb
+C:\Users\14388\source\repos\Desire\believe.DataAccess\bin\Debug\net6.0\believe.Models.dll
+C:\Users\14388\source\repos\Desire\believe.DataAccess\bin\Debug\net6.0\believe.Models.pdb
+C:\Users\14388\source\repos\Desire\believe.DataAccess\obj\Debug\net6.0\believe.DataAccess.csproj.AssemblyReference.cache
+C:\Users\14388\source\repos\Desire\believe.DataAccess\obj\Debug\net6.0\believe.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\14388\source\repos\Desire\believe.DataAccess\obj\Debug\net6.0\believe.DataAccess.AssemblyInfoInputs.cache
+C:\Users\14388\source\repos\Desire\believe.DataAccess\obj\Debug\net6.0\believe.DataAccess.AssemblyInfo.cs
+C:\Users\14388\source\repos\Desire\believe.DataAccess\obj\Debug\net6.0\believe.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\14388\source\repos\Desire\believe.DataAccess\obj\Debug\net6.0\believe.DataAccess.csproj.CopyComplete
+C:\Users\14388\source\repos\Desire\believe.DataAccess\obj\Debug\net6.0\believe.DataAccess.dll
+C:\Users\14388\source\repos\Desire\believe.DataAccess\obj\Debug\net6.0\refint\believe.DataAccess.dll
+C:\Users\14388\source\repos\Desire\believe.DataAccess\obj\Debug\net6.0\believe.DataAccess.pdb
+C:\Users\14388\source\repos\Desire\believe.DataAccess\obj\Debug\net6.0\believe.DataAccess.genruntimeconfig.cache
+C:\Users\14388\source\repos\Desire\believe.DataAccess\obj\Debug\net6.0\ref\believe.DataAccess.dll

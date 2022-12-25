@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
@@ -26,20 +27,28 @@ namespace believe.Models
         [Range(0, 100)]
         public double ListPrice { get; set; }
         [Required]
-        public double Price50 { get; set; }
+		[DisplayName("Price for 05")]
+		public double Price50 { get; set; }
         [Required]
         [Range(0, 100)]
-        public double Price75 { get; set; }
+		[DisplayName("Price for 75")]
+
+		public double Price75 { get; set; }
         [ValidateNever]
         public string ImageUrl { get; set; }
         [Required]
-        public int CategoryId { get; set; }
+		[DisplayName("Category")]
+		public int CategoryId { get; set; }
         [ForeignKey("CategoryId")]
         [ValidateNever]
-        public Category Category { get; set; }
+		[DisplayName("Category")]
+		public Category Category { get; set; }
         [Required]
-        public int CoverTypeId { get; set; }
+		[DisplayName("Cover Type")]
+
+		public int CoverTypeId { get; set; }
         [ValidateNever]
+        [DisplayName("Cover Type")]
         public CoverType CoverType { get; set; }
 
     }

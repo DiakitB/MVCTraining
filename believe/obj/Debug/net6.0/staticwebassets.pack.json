@@ -1,0 +1,329 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\believe.bundle.scp.css",
+      "PackagePath": "staticwebassets\\believe.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\css\\bootswachTheme.css",
+      "PackagePath": "staticwebassets\\css\\bootswachTheme.css"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\css\\productStyle.css",
+      "PackagePath": "staticwebassets\\css\\productStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\images\\products\\2598392c-5d11-4bc3-84bc-1ed1613a59f8.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\2598392c-5d11-4bc3-84bc-1ed1613a59f8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\images\\products\\2d9444d3-91c6-4535-8665-f18bbc5204be.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\2d9444d3-91c6-4535-8665-f18bbc5204be.jpg"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\images\\products\\36d80919-cb62-46f5-ab3b-f6aa65f0e6b2.webp",
+      "PackagePath": "staticwebassets\\images\\products\\36d80919-cb62-46f5-ab3b-f6aa65f0e6b2.webp"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\images\\products\\3d65d49c-0be8-4a5b-a0e6-5b8dd480148a.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\3d65d49c-0be8-4a5b-a0e6-5b8dd480148a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\images\\products\\49a77b6e-8e35-4069-8be4-54d4a0a7c4a8.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\49a77b6e-8e35-4069-8be4-54d4a0a7c4a8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\images\\products\\521e2e04-d928-465b-930c-e93636171a1a.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\521e2e04-d928-465b-930c-e93636171a1a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\images\\products\\54dec5c5-247e-4f5d-830c-49338e5a9495.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\54dec5c5-247e-4f5d-830c-49338e5a9495.jpg"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\images\\products\\568d8a5c-3817-4936-98ef-a2e750ab7985.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\568d8a5c-3817-4936-98ef-a2e750ab7985.jpg"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\images\\products\\59f90a1c-dfa8-40bb-934f-67a6f83d91d2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\59f90a1c-dfa8-40bb-934f-67a6f83d91d2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\images\\products\\701b5910-5afa-4cf8-bf48-23c1ffad43e9.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\701b5910-5afa-4cf8-bf48-23c1ffad43e9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\images\\products\\983c2867-3e4b-4414-8143-c2d3a96a9be6.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\983c2867-3e4b-4414-8143-c2d3a96a9be6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\images\\products\\98560ce4-ddd9-40aa-b5d1-684933197596.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\98560ce4-ddd9-40aa-b5d1-684933197596.jpg"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\images\\products\\a98508ee-e007-46e2-b960-ec647f592abf.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\a98508ee-e007-46e2-b960-ec647f592abf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\js\\product.js",
+      "PackagePath": "staticwebassets\\js\\product.js"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\14388\\source\\repos\\Desire\\believe\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.believe.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.believe.props",
+      "PackagePath": "build\\believe.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.believe.props",
+      "PackagePath": "buildMultiTargeting\\believe.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.believe.props",
+      "PackagePath": "buildTransitive\\believe.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
